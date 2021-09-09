@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>pcl_test</name>
+  <version>0.0.1</version>
+  <description>The pcl_test package</description>
+
+
+  <maintainer email="shenzb12@lzu.edu.cn">adam</maintainer>
+
+  <license>MIT</license>
+
+  <!--编译依赖-->
+  <!--roscpp（编写C++ ROS节点），sensor_msgs（定义了激光雷达的msg），    pcl_ros（连接ROS和pcl库）-->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+
+  <!--运行依赖-->
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>pcl_ros</run_depend>
+</package>
