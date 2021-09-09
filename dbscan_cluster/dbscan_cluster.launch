@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="dbscan_cluster" type="dbscan_cluster_node" name="dbscan_cluster_node" output="screen"/>
+</launch>
